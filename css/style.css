@@ -99,7 +99,9 @@ menu ul li a{
     color: rgb(71, 247, 2);
 }
 
-.home-text{
+home-text{
+    width: 35%;
+    margin: 50px auto;
     color: rgb(71, 247, 2);
 
 }
