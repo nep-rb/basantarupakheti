@@ -41,29 +41,27 @@ hr{
     
 }
 .Bubble1{ 
-    visibility:collapse;
-    width: 200px;
+    width: 120px;
     position: absolute;
-    top: auto;
+    top: 30%;
     left: 80%;
 }
 .Bubble2{
-    visibility:collapse;
-    width: 150px;
+    width: 110px;
     position: absolute;
-    top: 25%;
+    top: 50%;
     left: 60%;
 }
 .Bubble3{
-    width: 100px;
+    width: 90px;
     position: absolute;
-    top: 65%;
+    top: 75%;
     right: 60%;
 }
 .Bubble4{
     width: 70px;
     position: absolute;
-    top: 85%;
+    top: 95%;
     right: 80%;
 }
 menu ul li a{
