@@ -41,12 +41,14 @@ hr{
     
 }
 .Bubble1{ 
+    visibility:collapse;
     width: 200px;
     position: absolute;
     top: auto;
     left: 80%;
 }
 .Bubble2{
+    visibility:collapse;
     width: 150px;
     position: absolute;
     top: 25%;
