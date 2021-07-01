@@ -1,5 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-    background-image: url(../img/background.png);
+    align-items: center;
+    justify-content: center;
     text-align: center;
     margin: 0%;
     text-align: center;
@@ -7,6 +12,23 @@ body{
     font-size: rem;
     
 }
+.bg{
+    background: url(../img/background.png) no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vw + 60px);
+    z-index: -1;
+    filter: blur(0px);
+    height: 145vh;
+}
+
+.loading.text{
+    font-size: 50px;
+    color: #fff;
+}
+
 h1{
     margin: auto;
     font-size: 3.625rem;
@@ -93,13 +115,14 @@ menu ul li a{
     width: 16%;
     margin: auto;
 }
+
 .travel-text{
     width: 35%;
     margin: 50px auto;
     color: rgb(71, 247, 2);
 }
 
-home-text{
+.home-text{
     width: 35%;
     margin: 50px auto;
     color: rgb(71, 247, 2);
@@ -135,6 +158,8 @@ home-text{
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
 }
+
+
 
 .btn1 {
     background: #11cdd4;
@@ -195,7 +220,7 @@ home-text{
   }
 
 
-
+  
   .btn2{
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
