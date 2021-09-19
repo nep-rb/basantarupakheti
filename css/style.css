@@ -259,6 +259,11 @@ menu ul li a{
 
 .gadds{
     margin: auto;
-    width: 10px;
-    display:  inline-block;    
+    width: 100%;
+    display: inline;    
+}
+.banneradds{
+    margin: auto;
+    width: 30%;
+    display: inline-block;
 }
