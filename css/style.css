@@ -262,7 +262,9 @@ menu ul li a{
     display: inline;    
 }
 .banneradds{
+    margin: none;
     width: 10%;
+    padding: 5px;
     display: inline-block;
 }
 
