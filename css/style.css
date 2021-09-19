@@ -258,7 +258,7 @@ menu ul li a{
 }
 
 .gadds{
-    margin: none;
+    margin: auto 0 auto 0;
     width: 100%;
     display: inline;    
 }
